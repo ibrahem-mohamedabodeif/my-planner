@@ -1,248 +1,241 @@
-body{
-    font-family: "Caveat", cursive;
-    text-align: center;
-    background-color: #c1ad88;
+body {
+  text-align: center;
+  background-color: #c1ad88;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.container{
-    margin-top: 70px;
-    position: relative;
-}
-
-.header h1{
-    font-weight: 700px;
-    font-size: 80px;
-    margin-bottom: 70px;
-    color: #3a4d44;
+.container {
+  margin-top: 70px;
+  position: relative;
 }
 
-
-
-.header i{
-    font-size: 50px;
-    color: #3a4d44;
+.header h1 {
+  font-weight: 700px;
+  font-size: 80px;
+  margin-bottom: 70px;
+  color: #3a4d44;
 }
 
-.qoute p{
-    font-size: 55px;
-    font-weight: 200;
-    color: white;
-    line-height: 1.2;
-    letter-spacing: 2px;
+.header i {
+  font-size: 50px;
+  color: #3a4d44;
+}
+
+.qoute p {
+  font-size: 55px;
+  font-weight: 200;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 2px;
 }
 
 .card {
-    font-size: 30px;
-    border: 1px solid white;
-    border-radius: 20px;
-    width: 200px;
-    margin: 5px auto;
-    margin-bottom: 25px;
-    padding: 10px 15px 10px 15px;
-    background-color: #3a4d44;
-    color: white;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 200px;
+  margin: 5px auto;
+  margin-bottom: 25px;
+  padding: 10px 15px 10px 15px;
+  background-color: #3a4d44;
+  color: white;
 }
 
-.cards{
-    margin-top: 100px;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    gap: 20px;
+.cards {
+  margin-top: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.card{
-    cursor: pointer;
+.card {
+  cursor: pointer;
 }
 
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
 }
 
-input{
-    width: 70%;
-    border: 1px solid white;
-    border-radius: 15px;
-    height: 40px;
-    font-size: 20px;
-    padding-left: 20px; 
-    outline: none;
+input {
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+  outline: none;
 }
 
-input::placeholder{
-    font-size:30px;
-    padding: 20px;
+input::placeholder {
+  font-size: 30px;
+  padding: 20px;
 }
 
-form i{
-    font-size: 35px;
-    color: #3a4d44;
-    cursor: pointer;
+form i {
+  font-size: 35px;
+  color: #3a4d44;
+  cursor: pointer;
 }
 
-form i:hover{
-    color: blue;
+form i:hover {
+  color: blue;
 }
 
-input[type="checkbox"]{
-    width: 25px;
+input[type="checkbox"] {
+  width: 25px;
 }
 
-.list-container{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
+.list-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
 }
 
-.task{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-align: start;
-    margin-bottom: 20px;
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: start;
+  margin-bottom: 20px;
 }
 
-.task p{
-    font-size: 40px;
-    margin: 0;
-    color: white;
-    width: 100%;
+.task p {
+  font-size: 40px;
+  margin: 0;
+  color: white;
+  width: 100%;
 }
 
-.done{
-    opacity: .25;
+.done {
+  opacity: 0.25;
 }
 
 .back i {
-    position: absolute;
-    left: 10px;
-    top: -30px;
-    font-size: 24px;
-    border: 1px solid white;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: white;
-    color: #3a4d44;
+  position: absolute;
+  left: 10px;
+  top: -30px;
+  font-size: 24px;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  color: #3a4d44;
 }
 
-.note p{
-    font-size: 35px;
-    text-wrap: wrap;
-    color: white;
-    margin:0;
-    padding: 5px;
+.note p {
+  font-size: 35px;
+  text-wrap: wrap;
+  color: white;
+  margin: 0;
+  padding: 5px;
 }
 
-.note{
-    max-width: 100%;
-    text-align: start;
-    margin-left: 60px;
-    text-wrap: wrap;
+.note {
+  max-width: 100%;
+  text-align: start;
+  margin-left: 60px;
+  text-wrap: wrap;
 }
 
-.note-container{
-    margin-top: 20px;
+.note-container {
+  margin-top: 20px;
 }
 
-.add{
-    padding: 10px;
-    border: 1px solid #3a4d44;
-    border-radius: 12px;
-    width: 80px;
-    background-color: #c1ad88;
-    color: white;
-    cursor: pointer;
-    /* margin-left: 20px; */
-    text-align: center;
+.add {
+  padding: 10px;
+  border: 1px solid #3a4d44;
+  border-radius: 12px;
+  width: 80px;
+  background-color: #c1ad88;
+  color: white;
+  cursor: pointer;
+  /* margin-left: 20px; */
+  text-align: center;
+  font-size: 16px;
+}
+
+.del {
+  padding: 10px;
+  border: 1px solid #3a4d44;
+  border-radius: 12px;
+  width: 60px;
+  background-color: #c1ad88;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.btn-container {
+  margin-right: 40px;
+}
+
+.back {
+  padding: 10px;
+  border: 1px solid #3a4d44;
+  border-radius: 12px;
+  width: 80px;
+  background-color: #c1ad88;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .header h1 {
+    font-size: 50px;
+  }
+
+  .qoute p {
+    font-size: 30px;
+  }
+
+  .card {
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .add {
+    width: 50px;
+    font-size: 12px;
+  }
+
+  input {
+    width: 50%;
     font-size: 16px;
-}
+  }
 
-.del{
-    padding: 10px ;
-    border: 1px solid #3a4d44;
-    border-radius: 12px;
-    width: 60px;
-    background-color: #c1ad88;
-    color: white;
-    cursor: pointer;
-    margin-left: 10px;
+  .del {
+    width: 50px;
+    font-size: 12px;
     text-align: center;
-}
+    padding: 4px;
+  }
 
-
-.task-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.btn-container{
-    margin-right: 40px;
-}
-
-.back{
-    padding: 10px;
-        border: 1px solid #3a4d44;
-        border-radius: 12px;
-        width: 80px;
-        background-color: #c1ad88;
-        color: white;
-        cursor: pointer;
-        margin-left: 20px;
-        text-align: center;
-        font-size: 16px;
-        float: left;
-}
-
-.cont{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-
-
-@media (max-width:425px) {
-    .header h1 {
-        font-size: 50px;
-    }
-
-    .qoute p {
-        font-size: 30px;
-    }
-
-    .card {
-        font-size: 20px;
-        width: 100px;
-    }
-
-    .add{
-        width: 50px;
-        font-size: 12px;
-    }
-
-    input{
-        width: 50%;
-        font-size: 16px;
-    }
-
-    .del{
-        width: 50px;
-        font-size: 12px;
-        text-align: center;
-        padding: 4px;
-    }
-
-    .task{
-        font-size: 14px;
-        margin: auto;
-    }
+  .task {
+    font-size: 14px;
+    margin: auto;
+  }
 }
